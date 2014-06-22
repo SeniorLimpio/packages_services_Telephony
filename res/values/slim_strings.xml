@@ -188,4 +188,5 @@
     <string name="preferred_network_mode_wcdma_only">WCDMA only</string>
     <string name="preferred_network_mode_gsm_only">GSM only</string>
     <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferred</string>
+
 </resources>

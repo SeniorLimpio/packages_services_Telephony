@@ -615,7 +615,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             boolean doVibrate = (Boolean) objValue;
             Settings.System.putInt(mPhone.getContext().getContentResolver(),
                     Settings.System.VIBRATE_WHEN_RINGING, doVibrate ? 1 : 0);
-        } else if (preference == mPulseTorch) {
+       } else if (preference == mPulseTorch) {
             boolean doPulse = (Boolean) objValue;
             Settings.System.putInt(mPhone.getContext().getContentResolver(),
                     Settings.System.TORCH_WHILE_RINGING, doPulse ? 1 : 0);

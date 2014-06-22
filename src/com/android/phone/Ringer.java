@@ -40,7 +40,6 @@ import android.util.Log;
 import com.android.internal.util.ldroid.DeviceUtils;
 import com.android.internal.util.ldroid.QuietHoursHelper;
 import com.android.internal.util.ldroid.TorchConstants;
-
 import com.android.internal.telephony.Phone;
 /**
  * Ringer manager for the Phone app.
