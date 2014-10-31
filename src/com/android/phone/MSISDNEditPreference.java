@@ -116,6 +116,7 @@ public class MSISDNEditPreference extends EditTextPreference {
         tcpListener = listener;
         if (!skipReading) {
             setText(mPhone.getLine1Number());
+            setEnabled(true);
         }
     }
 
